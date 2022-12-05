@@ -1,14 +1,14 @@
-
+#include <iostream>
 # include "lib.h"
 using namespace std;
 bool cosa(char &a)
 {
-    if (65<=a && a<90)
+    if (a>=65 && a<=90)
     {
         a=a+32;
         return true;
     }
-    else if (97<=a && a<=122)
+    else if (a>=97 && a<=122)
     {
         a=a-32;
         return true;
