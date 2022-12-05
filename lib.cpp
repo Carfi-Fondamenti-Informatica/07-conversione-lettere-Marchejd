@@ -2,19 +2,17 @@
 #include "lib.h"
 
 using namespace std;
-bool cosa(char &a)
-{
-    if (a>=65 && a<=90)
+
+bool lettera(char &a){
+    if (a >=65 && a <=90 )
     {
-        a+=32;
+        a+= 32;
         return true;
     }
-    else if (a>=97 && a<=122)
-    {
+    else if(a >=97 && a<=122 ){
         a-=32;
         return true;
     }
-    else 
-    {
+    else
         return false;
-    }
+}
