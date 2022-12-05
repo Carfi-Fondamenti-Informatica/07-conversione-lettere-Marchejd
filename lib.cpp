@@ -1,4 +1,5 @@
-#include "cosaLib.h"
+# include <iostream>
+# include "lib.h"
 using namespace std;
 bool cosa(char &a)
 {
