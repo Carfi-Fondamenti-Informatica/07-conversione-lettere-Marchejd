@@ -9,11 +9,11 @@ if (cosa(b)==true)
 {
     cout<<b;
 }
-if (cosa(b)==false)
+else
 {
-    cout<<"errore";
+    cout<<"errore"<<endl;
+
 }
 
         return 0;
     }
-
