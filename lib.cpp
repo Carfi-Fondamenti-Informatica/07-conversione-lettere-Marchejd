@@ -1,4 +1,5 @@
 #include "lib.h"
+using namespace std;
 bool cosa(char &a)
 {
     if (a >=65 && a <=90 )
