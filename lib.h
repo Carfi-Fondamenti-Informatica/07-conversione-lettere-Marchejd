@@ -1,6 +1,6 @@
 
 
 
-bool lettera(char &carattere);
+bool lettera(char &a);
 
 
