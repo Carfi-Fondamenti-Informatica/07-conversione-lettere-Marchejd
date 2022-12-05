@@ -1,6 +1,6 @@
 
 
 
-bool cosa(char &a);
+bool cosa(char &a)
 
 
