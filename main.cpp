@@ -9,9 +9,9 @@ if (cosa(b)==true)
 {
     cout<<b;
 }
-else
+if (cosa(b)==false)
 {
-    cout<<"errore"<<endl;
+    cout<<"errore";
 }
 
         return 0;
