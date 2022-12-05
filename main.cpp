@@ -1,19 +1,16 @@
 #include <iostream>
 #include "lib.h"
 using namespace std;
-bool cosa(char &a);
-int main() {
-char b;
-cin>>b;
-if (cosa(b)==true)
-{
-    cout<<b;
-}
-else
-{
-    cout<<"errore"<<endl;
-
-}
-
+int main (){
+    char b=a;
+    cin>>a;
+    if ( cosa(b)==true)
+    {
+        cout<<b;
+    }
+        else 
+        {
+            cout<<"errore";
+        }
         return 0;
     }
