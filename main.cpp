@@ -1,5 +1,5 @@
 #include <iostream>
-#include "LIb.h"
+#include "lib.h"
 using namespace std;
 bool cosa(char &a);
 int main() {
