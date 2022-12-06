@@ -5,8 +5,8 @@ int main() {
     char carattere;
     cin>>carattere;
     if (lettera(carattere)==true)
-        cout<<carattere;
+        cout<<carattere<<endl;;
     else
-        cout<<"errore";
+        cout<<"errore"<<endl;
     return 0;
 }
